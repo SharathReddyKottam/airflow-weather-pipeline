@@ -1,4 +1,4 @@
-markdown# airflow-weather-pipeline
+# airflow-weather-pipeline
 
 A batch ETL pipeline that scrapes real-time weather data for US and India cities using Apache Airflow, BeautifulSoup, and PostgreSQL — fully containerized with Docker Compose.
 
