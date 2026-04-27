@@ -18,6 +18,22 @@ You can watch all 3 steps run in the Airflow UI and query the results directly i
 
 ---
 
+## Screenshots
+
+**DAG List — weather_pipeline active with hourly schedule**
+![DAG List](screenshots/airflow-dag-list.png)
+
+**DAG Run Details — 3 successful runs, all tasks green**
+![DAG Runs](screenshots/dag-runs-detail.png)
+
+**Pipeline Graph — scrape → transform → load (all success)**
+![DAG Graph](screenshots/dag-graph-view.png)
+
+**Data in PostgreSQL — real weather rows loaded**
+![Postgres Output](screenshots/postgres-output.png)
+
+---
+
 ## Tech Stack
 
 ### Apache Airflow
